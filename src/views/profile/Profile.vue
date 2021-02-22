@@ -1,13 +1,126 @@
 <template>
-  <h2>个人</h2>
+  <div>
+    <scroll class="content">
+      <ul>
+        <li>测试scroll1</li>
+        <li>测试scroll2</li>
+        <li>测试scroll3</li>
+        <li>测试scroll4</li>
+        <li>测试scroll5</li>
+        <li>测试scroll6</li>
+        <li>测试scroll7</li>
+        <li>测试scroll8</li>
+        <li>测试scroll9</li>
+        <li>测试scroll10</li>
+        <li>测试scroll11</li>
+        <li>测试scroll12</li>
+        <li>测试scroll13</li>
+        <li>测试scroll14</li>
+        <li>测试scroll15</li>
+        <li>测试scroll16</li>
+        <li>测试scroll17</li>
+        <li>测试scroll18</li>
+        <li>测试scroll19</li>
+        <li>测试scroll20</li>
+        <li>测试scroll21</li>
+        <li>测试scroll22</li>
+        <li>测试scroll23</li>
+        <li>测试scroll24</li>
+        <li>测试scroll25</li>
+        <li>测试scroll26</li>
+        <li>测试scroll27</li>
+        <li>测试scroll28</li>
+        <li>测试scroll29</li>
+        <li>测试scroll30</li>
+        <li>测试scroll31</li>
+        <li>测试scroll32</li>
+        <li>测试scroll33</li>
+        <li>测试scroll34</li>
+        <li>测试scroll35</li>
+        <li>测试scroll36</li>
+        <li>测试scroll37</li>
+        <li>测试scroll38</li>
+        <li>测试scroll39</li>
+        <li>测试scroll40</li>
+        <li>测试scroll41</li>
+        <li>测试scroll42</li>
+        <li>测试scroll43</li>
+        <li>测试scroll44</li>
+        <li>测试scroll45</li>
+        <li>测试scroll46</li>
+        <li>测试scroll47</li>
+        <li>测试scroll48</li>
+        <li>测试scroll49</li>
+        <li>测试scroll50</li>
+        <li>测试scroll51</li>
+        <li>测试scroll52</li>
+        <li>测试scroll53</li>
+        <li>测试scroll54</li>
+        <li>测试scroll55</li>
+        <li>测试scroll56</li>
+        <li>测试scroll57</li>
+        <li>测试scroll58</li>
+        <li>测试scroll59</li>
+        <li>测试scroll60</li>
+        <li>测试scroll61</li>
+        <li>测试scroll62</li>
+        <li>测试scroll63</li>
+        <li>测试scroll64</li>
+        <li>测试scroll65</li>
+        <li>测试scroll66</li>
+        <li>测试scroll67</li>
+        <li>测试scroll68</li>
+        <li>测试scroll69</li>
+        <li>测试scroll70</li>
+        <li>测试scroll71</li>
+        <li>测试scroll72</li>
+        <li>测试scroll73</li>
+        <li>测试scroll74</li>
+        <li>测试scroll75</li>
+        <li>测试scroll76</li>
+        <li>测试scroll77</li>
+        <li>测试scroll78</li>
+        <li>测试scroll79</li>
+        <li>测试scroll80</li>
+        <li>测试scroll81</li>
+        <li>测试scroll82</li>
+        <li>测试scroll83</li>
+        <li>测试scroll84</li>
+        <li>测试scroll85</li>
+        <li>测试scroll86</li>
+        <li>测试scroll87</li>
+        <li>测试scroll88</li>
+        <li>测试scroll89</li>
+        <li>测试scroll90</li>
+        <li>测试scroll91</li>
+        <li>测试scroll92</li>
+        <li>测试scroll93</li>
+        <li>测试scroll94</li>
+        <li>测试scroll95</li>
+        <li>测试scroll96</li>
+        <li>测试scroll97</li>
+        <li>测试scroll98</li>
+        <li>测试scroll99</li>
+        <li>测试scroll100</li>
+      </ul>
+    </scroll>
+  </div>
 </template>
 
 <script>
+import Scroll from 'components/common/scroll/Scroll'
   export default {
-    name: "Profile"
+    name: "Profile",
+    components:{
+      Scroll
+    }
   }
 </script>
 
 <style scoped>
-
+  .content{
+    height: 300px;
+    background-color: pink;
+    overflow:hidden;
+  }
 </style>
